@@ -2,9 +2,7 @@
 
 一个功能丰富的中文自托管导航面板，支持多用户、自定义网站、天气、股票、便签、主题切换等功能。
 
-![image](https://i.111666.best/image/aOSpidVP9D4on7PeJ3T1yR.png)
-![image](https://i.111666.best/image/Ayqw8Dz5XX53WxqKti8xPV.png)
-![image](https://i.111666.best/image/m8NhbiKcuBtPLaBcsQF7y1.png)
+
 
 ## ✨ 功能特性
 
