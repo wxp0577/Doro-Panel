@@ -300,4 +300,4 @@ MIT License
 
 如果这个项目对你有帮助，欢迎点个Star ⭐
 
-有问题或建议欢迎提交 [Issues](https://github.com/你的用户名/doro-panel/issues)
+
