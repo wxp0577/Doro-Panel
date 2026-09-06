@@ -1,2 +1,42 @@
-# Doro-Panel
+# 🚀 Doro-Panel 导航面板
+
 一个功能丰富的中文自托管导航面板，支持多用户、自定义网站、天气、股票、便签、主题切换等功能。
+
+![image](https://i.111666.best/image/aOSpidVP9D4on7PeJ3T1yR.png)
+![image](https://i.111666.best/image/Ayqw8Dz5XX53WxqKti8xPV.png)
+![image](https://i.111666.best/image/m8NhbiKcuBtPLaBcsQF7y1.png)
+
+## ✨ 功能特性
+
+- 🕐 实时时间/日期显示，支持多种颜色特效
+- 🔍 多搜索引擎切换（百度/必应/谷歌）
+- 🌤️ 实时天气，支持IP自动定位和手动设置地区
+- 📰 热点资讯，自动抓取，支持多来源
+- 📈 今日股市，自定义股票，实时涨跌
+- 📝 便签功能，一键复制
+- 🎨 多种主题风格（默认/机甲科技/霓虹像素）
+- 🖼️ 自定义壁纸上传/切换
+- 👤 多用户系统，独立配置
+- 🔒 内网/公网切换，登录保护
+- 🎭 立绘系统，支持自定义上传和自动轮换
+-  表情包系统，支持GIF/PNG上传
+
+
+⚠️ **安全提示**
+默认管理员账号：`admin` / `admin`
+首次登录后请立即修改密码！ 
+😊 切换极简模式，隐藏在右上角！
+
+
+## 🚀 快速部署
+
+### Docker 部署
+
+```bash
+docker run -d \
+  --name doro-panel \
+  -p 8086:8080 \
+  -v /home/docker/doro-panel:/app/data \
+  -e TZ=Asia/Shanghai \
+  --restart unless-stopped \
+  wxp0577/doro-panel:latest
