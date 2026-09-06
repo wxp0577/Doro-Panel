@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/platform-amd64%20%7C%20arm64-orange)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-一个功能丰富的自托管导航面板，docker部署，支持多用户、多主题、立绘表情包、股票天气等功能。
+一个Doro主题的自托管导航面板，docker部署，支持多用户、多主题、立绘表情包、股票天气等功能。
 
 ---
 
