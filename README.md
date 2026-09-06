@@ -257,27 +257,9 @@ A: 管理员登录后，在「系统设置」→「日志」中查看，包含�
 
 ## 📝 更新日志
 
-详见 [CHANGELOG.md](./CHANGELOG.md)
-
----
-
-## 🛠️ 技术栈
-
-- **后端**: Python 3.12 + Flask + Gunicorn
-- **数据库**: SQLite（零配置，单文件）
-- **前端**: 原生 HTML/CSS/JavaScript（无框架依赖）
-- **部署**: Docker + Docker Compose
-
----
-
-## 📄 许可证
-
-MIT License
-
----
+详见 [CHANGELOG.md](./CHANGELOG.
 
 ## ⭐ 支持项目
 
 如果这个项目对你有帮助，欢迎点个Star ⭐
 
-有问题或建议欢迎提交 [Issues](https://github.com/你的用户名/doro-panel/issues)
