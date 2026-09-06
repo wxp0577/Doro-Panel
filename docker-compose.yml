@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  doro-panel:
+    image: wxp0577/doro-panel:latest
+    container_name: doro-panel
+    restart: unless-stopped
+    ports:
+      - "8086:8080"
+    environment:
+      - TZ=Asia/Shanghai
+      - PORT=8080
+      - HOST=0.0.0.0
+      - DATA_DIR=/app/data
+      # 管理员账号（可选，仅首次初始化生效，默认 admin/admin）
+      # - ADMIN_USERNAME=admin
+      # - ADMIN_PASSWORD=your_password
+      # 应用密钥（建议修改）
+      # - SECRET_KEY=your-secret-key-here
+    volumes:
+      - /home/docker/doro-panel:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/settings"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
